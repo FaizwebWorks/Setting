@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 10px;
+  box-shadow: 2px 2px 15px #e3e3e3d0;
+  margin-bottom: 20px;
+}
+
+nav i {
+  color: #0080ff;
+  font-size: 24px;
+}
+
+nav p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+nav p:nth-child(3) {
+  color: #0080ff;
+}
+
+.banner {
+  height: 80px;
+  width: 90%;
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    #0080ff,
+    #0095ff,
+    #00a8ff,
+    #3bbaff,
+    #65caff
+  );
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  color: white;
+}
+
+.bleft {
+  display: flex;
+  align-items: center;
+}
+
+.bleft .pimg {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.pimg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  scale: 1.5;
+}
+
+.names p:nth-child(1) {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.names p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.bright p {
+  font-size: 13px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+.hero-section {
+  width: 90%;
+  height: 75vh;
+  margin: auto;
+  margin-top: 20px;
+  border: 0.5px solid rgba(215, 215, 215, 0.511);
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px rgba(205, 205, 205, 0.388);
+  padding: 8px 16px;
+}
+
+.hero-section .heading {
+  font-weight: 700;
+  font-size: 24px;
+  /* margin: 8px 0; */
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.items p {
+  font-weight: 550;
+  color: rgb(112, 112, 112);
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(112, 112, 112);
+}
+
+.down {
+  margin-top: 2px;
+  color: rgb(112, 112, 112);
+}
+
+.items i {
+  font-size: 24px;
+}
+
+.noti {
+  color: rgb(81, 162, 255);
+}
+
+.container {
+  width: 51px;
+  height: 31px;
+  position: relative;
+}
+
+.checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.switch {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #e9e9eb;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.slider {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - 27px / 2 - 10px);
+  top: calc(50% - 27px / 2);
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.checkbox:checked + .switch {
+  background-color: #34c759;
+}
+
+.checkbox:checked + .switch .slider {
+  left: calc(50% - 27px / 2 + 10px);
+  top: calc(50% - 27px / 2);
+}
+
+.theme {
+  color: #34c759;
+}
+
+.py {
+  padding-bottom: 4px;
+  padding-top: 12px;
+}
+
+.orange {
+  color: rgb(255, 166, 0);
+}
+
+.red {
+  color: rgb(255, 37, 37);
+}
+
+.blue {
+  color: rgb(65, 116, 255);
+}
+.purple{
+    color: rgb(255, 91, 165);
+}
+.svg {
+  height: 20px;
+  width: 20px;
+}
